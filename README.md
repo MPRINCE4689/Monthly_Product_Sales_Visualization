@@ -95,20 +95,13 @@ python src/monthly_sales_visualization.py
 
 ### File Structure
 ```
-monthly-sales-visualization/
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── monthly_sales_data.csv
-│   └── sample_data.csv
-├── src/
-│   ├── monthly_sales_visualization.py
-│   └── test_installation.py
-├── images/
-│   ├── bar_chart.png
-│   ├── line_chart.png
-│   └── pie_chart.png
-└── .gitignore
+sales_visualization/
+├── venv/                           # Virtual environment
+├── monthly_product_sales.csv       # Sample data
+├── monthly_sales_visualization.py  # Main script
+├── test_installation.py           # Test script
+└── requirements.txt               # Package list
+└── README.md                      # About the project
 ```
 
 ## 📈 Expected Output
@@ -213,10 +206,6 @@ This project welcomes contributions! Areas for improvement:
 
 This project is open source and available under the MIT License.
 
-## 👨‍💻 Author
-
-Created as an educational project for data science internship requirements.
-
 ## 🎉 Acknowledgments
 
 - Python community for excellent data science libraries
@@ -224,5 +213,3 @@ Created as an educational project for data science internship requirements.
 - Designed for complete beginners in programming and data science
 
 ---
-
-**Note**: This project is specifically designed for beginners with no prior coding experience. Each step includes detailed explanations and the code is extensively commented for learning purposes.
